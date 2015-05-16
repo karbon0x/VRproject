@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Final Project</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                  <span class="light">Drug</span> Simulator
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Visual Effects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Future Plans</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Drug Simulator</h1>
+                        <p class="intro-text">CS 498 SL - Final Project<br>Saksham Saini, Ryan Kuck, Zehua Li and Rohan Seth</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About the project</h2>
+                <p>	We implemented some of the features psychedelic drugs induce onto human beings using Oculus Rift through visual stimulation.</p>
+                <p> Some of the effects we covered were Visual Drift, Chromatic Aberration and Vortex Effect</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Visual Drift</h2>
+                    <p>This effect is implemented by dynamically offsetting texture and distorting it with the shader. This allows for control of speed, direction, of a detailed vector field of the flow. The result works on terrain and objects to create the sense of Visual Drift. Low to moderate drift is pleasant and intriguing in the short term, however highly distorted flows and long exposure cause discomfort. The distortions in the scene have been calibrated accordingly to be comfortable for several minute exposures.</p>
+
+                </div>
+            </div>
+            <img class = "imgt" src="white_wolf.gif" alt="Visual Drift" />
+        </div>
+    </section>
+
+    <!-- Diff section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section2">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Chromatic Aberration</h2>
+                    <p>People under the influence of psychedelic drugs also experience a variety of colors in their visual experience. This is simulated by chromatic aberration around the edges of objects when the user changes their field of vision.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- Download Section -->
+        <section id="download" class="content-section text-center">
+            <div class="download-section">
+                <div class="container">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h2>Vortex Effect</h2>
+                        <p>Another psychedelic effect is the Flowing effect. Under this effect, the user experiences curved edges around objects and distorted view. We implemented this by distorting the visual field in VR using the Vortex Effect. This creates the sense of disorientation and may lead to vection in some individuals.
+</p>
+
+                    </div>
+                </div>
+                <img class = "imgt2" src="vortex.jpg" alt="Visual Drift" />
+            </div>
+        </section>
+
+        <!-- Diff section -->
+        <section id="download" class="content-section text-center">
+            <div class="download-section2">
+                <div class="container">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h2>Visual Tunneling</h2>
+                        <p>This psychedelic effect is a visual distortion which manifests spontaneously for temporary periods of time. When manifested, it alters the appearance of one's external environment into an all-encompassing tunnel. This experience results in the apparition of a large 3-dimensional tunnel in front of one's current field of vision. The effect may vary in intensity from being partially to completely encompassing.
+</p>
+
+                    </div>
+                </div>
+                <img class = "imgt" src="Tunnelling.gif" alt="Visual Drift" />
+            </div>
+        </section>
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Challenges faced and future plans</h2>
+                        <hr class="star-light">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-2">
+                        <p>The main technical challenges we faced was in implementing the visual drift effect. The asset we used,limits us to use only one texture on the entire terrain. This would make the VR experience boring (since the whole terrain would have only one texture). Our solution was to superimpose two terrains into the same scene in order to have visual drift work only on some part of the terrain An additional challenge was that our implementation of the tunnel effect required modeling and UV texture mapping in Blender.
+</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p>We want to make the visual tunnelling effect more dynamic so you can experience it wherever you look. Similarly we would incorporate more terrains that have the visual drift effect applied to them. We would also like to get feedback from phycologists and those who would be interested in using our project for research and augment and modify our 3 main visual effects based on their response.
+</p>
+                    </div>
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <p>Our visual drift and vortex effects are tuned well to offer a comfortable and immersive VR experience. We used alpha shaders to achieve that. Morevover, the visual tunneling effect was implemented using UV mapping. Some of the concepts which were helpful were different types of shading such as Lambertian Shading, optical flow, adjusting frame rates, texture mapping, bump mapping, normal mapping, distortion shading and post-rendering image warp.
+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>CS 498 SL</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
+</html>
